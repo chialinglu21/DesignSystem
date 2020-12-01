@@ -4,7 +4,6 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,9 @@
   },
   "homepage": "https://github.com/chialinglu21/DesignSystem#readme",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "autoprefixer": "^10.0.4",
+    "live-server": "^1.2.1",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
   }
 }
