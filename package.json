@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "npx live-server",
+    "build:css": "tailwind build ./src/style.css -o ./style.css"
   },
   "repository": {
     "type": "git",
