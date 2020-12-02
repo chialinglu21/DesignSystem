@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "npx live-server",
-    "build:css": "tailwind build ./src/style.css -o ./style.css"
+    "build:css": "tailwind build ./src/style.css -o ./src/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "autoprefixer": "^10.0.4",
     "live-server": "^1.2.1",
     "postcss": "^8.1.10",
+    "postcss-import": "^13.0.0",
     "tailwindcss": "^2.0.1"
   }
 }
